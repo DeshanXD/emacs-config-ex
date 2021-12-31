@@ -14,17 +14,17 @@
 
 ;; ----- ido-work-file-list -----
 (
- "README.org"
  "init.el"
+ "README.org"
  "ido.last"
  ".gitconfig"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/deshan/.emacs.d/" (25039 2720 270076 788000) "auto-save-list/" "README.org" "elpa/" ".git/" ".#init.el" "init.el~" "../" "./" "init.el" ".gitignore" "ido.last")
+ ("/home/deshan/.emacs.d/" (25039 3140 860172 295000) "auto-save-list/" "README.org" "elpa/" ".git/" "init.el~" "ido.last~" "../" "./" "init.el" ".gitignore" "ido.last")
 
- ("/home/deshan/" (25039 2247 5360 938000) "Templates/" ".emacs.d/" ".inputrc" ".profile" ".gnupg/" "python/" ".xsession-errors.old" ".xsession-errors" ".bashrc" ".Xauthority" "Desktop/" "Downloads/" ".bash_logout" "Public/" ".python_history" ".cache/" ".sudo_as_admin_successful" "Pictures/" ".var/" ".local/" "Music/" ".config/" "Documents/" "../" ".dmrc" "./" "Videos/" ".bash_history" ".mozilla/" ".pam_environment" ".gitconfig")
+ ("/home/deshan/" (25039 2949 411889 829000) "Templates/" ".emacs.d/" ".inputrc" ".profile" ".gnupg/" "python/" ".xsession-errors.old" ".xsession-errors" ".bashrc" ".Xauthority" "Desktop/" "Downloads/" ".bash_logout" "Public/" ".python_history" ".cache/" ".sudo_as_admin_successful" "Pictures/" ".var/" ".local/" "Music/" ".config/" "Documents/" "../" ".dmrc" "./" "Videos/" ".bash_history" ".mozilla/" ".pam_environment" ".gitconfig")
 
  ("/home/deshan/.emacs.d/auto-save-list/" (25038 42790 998937 284000) "../" "./" ".saves-9743-HPPavilion15~")
 )
