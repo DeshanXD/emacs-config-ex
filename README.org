@@ -1,6 +1,10 @@
+#+STARTUP: showall hidestars
+
 * Emacs Configuration
   Installed melpa and setup basic configuaration
   Packages :
   - use-package
   - try
   - which-key
+
+  enabled ido-mode and flex matching

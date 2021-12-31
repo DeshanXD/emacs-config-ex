@@ -1,4 +1,24 @@
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages (quote (org-bullets try which-key use-package))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
 (setq inhibit-startup-message t)
+(setq auto-save-file-name-transforms
+          `((".*" ,(concat user-emacs-directory "auto-save/") t))) 
+
+(tool-bar-mode -1)
+;; (menu-bar-mode -1)
+(scroll-bar-mode -1)
+;; (toggle-scroll-bar -)
 
 (require 'package)
 (setq package-enable-at-startup nil)
@@ -17,3 +37,13 @@
 (use-package which-key
   :ensure t
   :config (which-key-mode))
+
+;; Org mode configuration
+(use-package org-bullets
+  :ensure t
+  :config
+  (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
