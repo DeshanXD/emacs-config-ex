@@ -3,7 +3,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages (quote (org-bullets try which-key use-package))))
+ '(package-selected-packages (quote (ace-window org-bullets try which-key use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -38,7 +38,7 @@
   :ensure t
   :config (which-key-mode))
 
-;; Org mode configuration
+; Org mode configuration
 (use-package org-bullets
   :ensure t
   :config
@@ -47,3 +47,20 @@
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 (ido-mode 1)
+
+(defalias 'list-buffers 'ibuffer)
+; you can use ibuffer-other-window here
+
+;(use-package tabbar
+;  :ensure t
+;  :config
+;  (tabbar-mode 1))
+
+
+;(use-package ace-window
+;  :ensure t
+;  :init
+;  (progn
+;    (global-set-key [remap other-window] 'ace-window)
+;    ))
+
