@@ -5,7 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (swiper ace-window org-bullets try which-key use-package))))
+    (company swiper ace-window org-bullets try which-key use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -14,8 +14,11 @@
  '(aw-leading-char-face ((t (:inherit ace-jump-face-foreground :height 3.0)))))
 
 (setq inhibit-startup-message t)
-(setq auto-save-file-name-transforms
-          `((".*" ,(concat user-emacs-directory "auto-save/") t))) 
+
+;(setq auto-save-file-name-transforms
+;          `((".*" ,(concat user-emacs-directory "auto-save/") t))) 
+
+(defvar my-auto-save-folder (concat "~/.emacs.d/auto-save")); folder for auto-saves
 
 (tool-bar-mode -1)
 ;; (menu-bar-mode -1)
@@ -100,3 +103,10 @@
 (use-package avy
   :ensure t
   :bind ("M-s" . avy-goto-char))
+
+(use-package company ; auto complete activated!
+  :ensure t
+  :config
+  (progn
+    (add-hook 'after-init-hook 'global-company-mode)))
+
