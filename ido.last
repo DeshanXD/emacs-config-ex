@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/" . "deshan/")
  ("/home/deshan/.emacs.d/" . "auto-save-list/")
  ("/home/deshan/" . ".emacs.d/")
 )
@@ -15,14 +16,17 @@
 ;; ----- ido-work-file-list -----
 (
  "init.el"
- "README.org"
+ ".gitignore"
  "ido.last"
+ "README.org"
  ".gitconfig"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/deshan/.emacs.d/" (25039 3140 860172 295000) "auto-save-list/" "README.org" "elpa/" ".git/" "init.el~" "ido.last~" "../" "./" "init.el" ".gitignore" "ido.last")
+ ("/home/deshan/.emacs.d/" (25039 4798 517811 70000) "auto-save-list/" "README.org" "elpa/" ".git/" "init.el~" "ido.last~" "../" "./" "init.el" ".gitignore" "ido.last")
+
+ ("/home/" (25037 53142 962031 990000) "deshan/" "../" "./")
 
  ("/home/deshan/" (25039 2949 411889 829000) "Templates/" ".emacs.d/" ".inputrc" ".profile" ".gnupg/" "python/" ".xsession-errors.old" ".xsession-errors" ".bashrc" ".Xauthority" "Desktop/" "Downloads/" ".bash_logout" "Public/" ".python_history" ".cache/" ".sudo_as_admin_successful" "Pictures/" ".var/" ".local/" "Music/" ".config/" "Documents/" "../" ".dmrc" "./" "Videos/" ".bash_history" ".mozilla/" ".pam_environment" ".gitconfig")
 
