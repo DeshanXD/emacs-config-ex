@@ -110,3 +110,5 @@
   (progn
     (add-hook 'after-init-hook 'global-company-mode)))
 
+;(use-package color-theme
+;  :ensure t)
